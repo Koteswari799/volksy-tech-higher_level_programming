@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-if _name_ == "__main__":
+if __name__ == "__main__":
     import hidden_4
     for i in dir(hidden_4):
-        if "_" not in i:
+        if "__" not in i:
             print(i)

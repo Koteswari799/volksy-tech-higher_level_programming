@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
-    from sys import agrv
+    fromm sys import agrv
     if len(agrv) != 4:
         print('./100-my_calculator.py <a> <operator> <b>')
         exit(1)

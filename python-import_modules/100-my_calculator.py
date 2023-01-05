@@ -12,7 +12,7 @@ if __name__ == "__main__":
         print('{} + {} = {}'.format(n1, n2, add(n1, n2)))
     elif operator == '-':
         print('{} - {} = {}'.format(n1, n2, sub(n1, n2)))
-    elif  operator == '*':
+    elif operator == '*':
         print('{} * {} = {}'.format(n1, n2, mul(n1, n2)))
     elif operator == '/':
         print('{} / {} = {}'.format(n1, n2, div(n1, n2)))

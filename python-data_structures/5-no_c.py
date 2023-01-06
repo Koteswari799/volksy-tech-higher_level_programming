@@ -5,4 +5,3 @@ def no_c(my_string):
         if i != 'c' and i != 'C':
             copy.append(i)
     return(''.join(copy))
-

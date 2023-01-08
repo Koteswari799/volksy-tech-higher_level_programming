@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-def best_score(a_dictionary):
+def roman_to_int(roman_string):
+    def best_score(a_dictionary):
     if a_dictionary:
         max_value = list(a_dictionary.keys())[0]
         for x in a_dictionary.keys():

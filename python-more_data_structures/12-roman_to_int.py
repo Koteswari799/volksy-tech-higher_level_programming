@@ -1,4 +1,5 @@
-#!/usr/bin/python3
+[9:15 pm, 08/01/2023] Koti:     return (list(map(lambda x: x * number, my_list)))
+[10:08 pm, 08/01/2023] Mamatha Bcg: #!/usr/bin/python3
 def roman_to_int(roman_string):
     rom_num = {'I': 1,
                'V': 5,
@@ -10,9 +11,10 @@ def roman_to_int(roman_string):
                }
     if roman_string is None or type(roman_string) is not str:
         return 0
+
     converted = 0
     length = len(roman_string)
-    for i in range(length): 
+    for i in range(length):
         if i is (length - 1):
             converted += rom_num[roman_string[i]]
         else:
@@ -20,4 +22,4 @@ def roman_to_int(roman_string):
                 converted += rom_num[roman_string[i]]
             else:
                 converted -= rom_num[roman_string[i]]
-    return (converted)
+    return (converted):

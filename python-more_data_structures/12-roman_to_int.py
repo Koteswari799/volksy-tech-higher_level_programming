@@ -12,7 +12,7 @@ def roman_to_int(roman_string):
         return 0
     converted = 0
     length = len(roman_string)
-    for i in (length): 
+    for i in range(length): 
         if i is (length -1 ):
             converted += rom_num[roman_string[i]]
         else:

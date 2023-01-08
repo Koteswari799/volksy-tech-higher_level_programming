@@ -1,5 +1,4 @@
-[9:15 pm, 08/01/2023] Koti:     return (list(map(lambda x: x * number, my_list)))
-[10:08 pm, 08/01/2023] Mamatha Bcg: #!/usr/bin/python3
+#!/usr/bin/python3
 def roman_to_int(roman_string):
     rom_num = {'I': 1,
                'V': 5,

@@ -16,11 +16,9 @@ load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
 
 
 
-
 fname = "add_item.json"
 
 ListyBoii = []
-
 
 
 
@@ -31,7 +29,6 @@ try:
 except:
 
     pass
-
 
 
 

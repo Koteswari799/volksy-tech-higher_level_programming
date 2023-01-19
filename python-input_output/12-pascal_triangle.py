@@ -5,11 +5,6 @@
 """
 
 
-
-
-
-
-
 def pascal_triangle(n):
 
     """ends of each list in the matrix are summed to display the next list
@@ -22,10 +17,7 @@ def pascal_triangle(n):
 
         return []
 
-
-
-
-    res = []
+   res = []
 
     for elem in range(n):
 

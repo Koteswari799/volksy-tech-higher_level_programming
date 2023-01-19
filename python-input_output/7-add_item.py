@@ -40,5 +40,3 @@ for i in range(1, len(sys.argv)):
     ListyBoii.append(sys.argv[i])
 
 save_to_json_file(ListyBoii, fname)
-
-

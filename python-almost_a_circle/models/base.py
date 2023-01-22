@@ -81,4 +81,3 @@ class Base:
         except:
             dicList = []
         return dicList
-

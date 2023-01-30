@@ -1,2 +1,2 @@
 -- hii
-SELECT score,name FROM secon_table WHERE score => 5 order by score desc;
+DELETE FROM second_table where score <= 5;

@@ -1,2 +1,2 @@
 -- hii
-SELECT score COUNT(*) as number FROM second_table GROUP BY score ORDER BY NUMBER DESC;
+SELECT score, COUNT(*) AS number FROM second_table GROUP BY score ORDER BY NUMBER DESC;

@@ -1,2 +1,2 @@
 -- hii
-SELECT AVG(score) FROM secon_table;
+SELECT AVG(score) as AVERAGE FROM second_table

@@ -1,2 +1,2 @@
 -- hii
-SELECT ID FROM first_table;
+SELECT COUNT(*) FROM first_table WHERE 'ID' = 89;

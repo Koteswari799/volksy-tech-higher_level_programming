@@ -1,2 +1,2 @@
 -- hii
-show databases;
+SHOW DATABASES;

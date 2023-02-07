@@ -2,7 +2,6 @@
 """Connection for python and sql"""
 
 
-
 import sys
 import MySQLdb
 

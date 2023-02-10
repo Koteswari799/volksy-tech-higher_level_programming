@@ -17,6 +17,3 @@ class Node:
         if type(value) != int:
             raise TypeError('data must be an integer')
         self.__data = value
-
-
-

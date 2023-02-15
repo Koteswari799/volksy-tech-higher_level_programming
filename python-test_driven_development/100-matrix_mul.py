@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 # 100-matrix_mul.py
 # Brennan D Baraban <375@holbertonschool.com>

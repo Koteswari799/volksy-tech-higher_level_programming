@@ -5,4 +5,4 @@ const myObject = {
 };
 console.log(myObject);
 myobject.value = 89;
-console.log(myobject);
+console.log(myObject);
